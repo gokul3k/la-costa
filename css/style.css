@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html,body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #efefef;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+ -webkit-backface-visibility: hidden;
+}
+
+.navbar {
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.navbar-default {
+  background-color: #efefef;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+#heading{
+  color: red;
+}
+#heading1{
+  background: linear-gradient(to right, #f6475c 0%, #ff9327 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 90vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#line{
+  border-top: 2px solid #efefef;
+  width: 80%;
+  text-align: left;
+  clear:both;
+  display:block;
+}
+.button {
+  background: linear-gradient(to left, #f6475c 0%, #ff9327 100%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 18px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background: linear-gradient(to right, #f6475c 0%, #ff9327 100%);
+  transition-duration: 200ms;
+}
+.loader-wrapper{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+}
+#benifits{
+  padding-bottom: 50px;
+  background-image: url("../img/dotted.png");
+  background-size:100% 100%;
+  height: auto;
+}
+#benifits h1{
+color:rgb(94, 94, 94);
+padding-top: 50px; 
+padding-bottom: 50px;
+font-family: 'Poppins', sans-serif;
+}
+#beach_riding{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  background-image: url("../img/dotted_inverse.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+@media (max-width: 600px){
+  #beach_riding{
+    background-image: none;
+  }
+}
+#beach_riding h2{
+  color:rgb(94, 94, 94);
+}
+#beach_riding #beach_bg img{
+  width: 100%;
+}
+#features{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+#features h2{
+  color:rgb(94, 94, 94);
+  font-family: 'Poppins', sans-serif;
+ 
+}
+#features .card{
+border-radius: 20px;
+background: linear-gradient(to right, #ffffff 0%, #d4d4d431 100%);
+height: auto;
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  #features .card{
+    height: 150px;
+    }
+} */
+
+#line2{
+  width: 200px;
+  border: 2px solid #f6475c;
+  border-radius: 5px;
+}
+.btn-floating{
+  color: red;
+  font-size: 30px;
+
+}
+.btn-floating:hover{
+  color: orange;
+  font-size: 30px;
+}
+#packages{
+  background-color:#efefef34;
+}
+#line3{
+  width: 100px;
+  border: 2px solid #f6475c;
+  border-radius: 5px;
+}
+
+#packages{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#packages h2{
+  color:rgb(94, 94, 94);
+  font-family: 'Poppins', sans-serif;
+}
+
+#contact_us{
+ background: grey;
+ font-family: 'Poppins', sans-serif;
+}
+#heading2{
+  color: red;
+  height: 40px;
+  width:40px;
+}
+#contact_us p{
+color: white;
+}
+#map{
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 220px;
+}
