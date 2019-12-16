@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
 
 html,body{
   font-family: 'Poppins', sans-serif;
@@ -225,3 +230,45 @@ color: white;
     padding: 14px 32px;
   }
  }
+#founders{
+  padding-bottom: 50px;
+  
+}
+ #founders h2{
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+ }
+ #founders .card{
+   border: none;
+   background-color: rgba(207, 207, 207, 0.9);
+   border-radius: 15px;
+ }
+ #founders .card p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+ #founders .card img{
+   height: 100%;
+   
+ }
+ #founders #signature1{
+   font-size: 35px;
+  font-family: 'Cedarville Cursive', cursive;
+ }
+
+ #founders #signature2{
+  font-size: 30px;
+  font-family: 'Calligraffitti', cursive;
+}
+#founders #signature3{
+  font-size: 35px;
+  font-family: 'Sacramento', cursive;
+}
+#gallery{
+  padding-bottom: 50px;
+  background-color: #efefef;
+}
+#gallery h2{
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
